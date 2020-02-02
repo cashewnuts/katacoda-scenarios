@@ -1,5 +1,7 @@
 launch.sh
 
+apt-get install nfs-common
+
 helm init
 
 kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:default
