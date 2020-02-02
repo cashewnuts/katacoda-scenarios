@@ -4,9 +4,9 @@ Create the Headless Service and StatefulSet by applying a yaml file.
 kubectl apply -f resources/web.yaml
 ```{{execute}}
 
-Watch the creation of the StatefulSet's Pods.
+Get the creation of the StatefulSet's Pods.
 ```
-kubectl get pods -w -l app=nginx
+kubectl get pods -l app=nginx
 ```{{execute}}
 
 

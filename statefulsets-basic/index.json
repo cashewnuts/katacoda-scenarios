@@ -4,6 +4,14 @@
   "difficulty": "Intermediate",
   "time": "20 minutes",
   "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "assets/web.yaml",
+          "target": "~/assets/"
+        }
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
