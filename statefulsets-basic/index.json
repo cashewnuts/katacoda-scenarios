@@ -15,8 +15,7 @@
     "steps": [
       {
         "title": "Preparation",
-        "text": "preparation.md",
-        "code": "setup.sh"
+        "text": "preparation.md"
       },
       {
         "title": "Step 1",

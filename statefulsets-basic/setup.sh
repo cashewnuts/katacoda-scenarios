@@ -1,6 +1,6 @@
 launch.sh
 
-apt-get install nfs-kernel-server
+apt-get install nfs-kernel-server -y
 mkdir /root/nfs-share
 echo "/root/nfs-share 172.17.0.29/16(rw,no_root_squash)" >> /etc/exports
 service nfs-kernel-server restart
