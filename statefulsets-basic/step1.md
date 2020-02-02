@@ -1,7 +1,7 @@
 
 Create the Headless Service and StatefulSet by applying a yaml file.
 ```
-kubectl apply -f resources/web.yaml
+kubectl apply -f web.yaml
 ```{{execute}}
 
 Get the creation of the StatefulSet's Pods.
