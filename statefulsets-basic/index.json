@@ -7,7 +7,7 @@
     "assets": {
       "host01": [
         {
-          "file": "./assets/web.yaml",
+          "file": "web.yaml",
           "target": "~/assets/"
         }
       ]
